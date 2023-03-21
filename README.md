@@ -2,8 +2,6 @@
 
 # E-Commerce Back-End
   
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-  
 ## Table of Contents
 
 [Installation](#installation)
@@ -20,7 +18,11 @@
 
 ## Description
 
-The back end for an e-commerce site configured using a working Express.js API to use Sequelize to interact with a MySQL database. This uses the latest technoligies so that a company can compete in the ever evolving world. This has multiple features. The schema is used to create the database. Seeds folder is used to seed data to the database. The models are created to set up the objects in the database. The routes connect the pages and the database. And lastly we have the connection which launches the page. This uses the "dotenv" to make a secure login without displaying the username or password for mysql. 
+The back end for an e-commerce site configured using a working Express.js API to use Sequelize to interact with a MySQL database. This uses the latest technoligies so that a company can compete in the ever evolving world. This has multiple features. The schema is used to create the database. Seeds folder is used to seed data to the database. The models are created to set up the objects in the database. The routes connect the pages and the database. And lastly we have the connection which launches the page. This uses the "dotenv" to make a secure login without displaying the username or password for mysql. This can be seen in following image: 
+
+![Screenshot](./images/dotenv-connection.png)
+
+The following video shows how to use the application. It starts at the point of usage. Please clone the repo to get to this point. 
 
 [Video of working E-Commerce Back-End](https://youtu.be/n378f8uPg40)
 
@@ -32,6 +34,8 @@ To start and use the application, first open the app in a command line terminal.
 
 ## License
 MIT
+  
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Contribution
 This was created by Tyler Dinslage using a skeleton frame code from University of California Berkeley full stack web development boot camp. 
